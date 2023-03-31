@@ -1,0 +1,56 @@
+.card {
+    width: 290px;
+    height: 275px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+p,
+span {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+mark {
+    background-color: #A03037;
+    color: white;
+}
+
+.card-image {
+    height: 63%;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-display {
+    width: 105px;
+    height: 135px
+}
+
+@media (min-width: 481px) and  (max-width: 767px) {
+    .card-image {
+        height: 63%;
+        background: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-image-display {
+        width: 55px;
+        height: 65px
+    }
+    .card {
+        width: 140px;
+        height: 250px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E2E2E2;
+        border-radius: 3px;
+        opacity: 1;
+    }
+}

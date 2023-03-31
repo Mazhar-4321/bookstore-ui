@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.table{
+    width: 751px;
+height: 112px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #DCDCDC;
+opacity: 1;
+display: flex;
+flex-direction: column;
+margin-bottom: 50px;
+font: normal normal normal 12px/15px Lato;
+}
+.header{
+    height: 42px;
+/* UI Properties */
+background: #FAFAFA 0% 0% no-repeat padding-box;
+border-bottom: 1px solid #DCDCDC;
+opacity: 1;
+}
+.header-1{
+    margin-left: 72px; font-size: 12px; margin-top: 14px; margin-bottom: 13px;
+}
+.header-2{
+    margin-left: 183px; font-size: 12px; margin-top: 14px; margin-bottom: 13px;
+}
+.header-3{
+    margin-left: 231px; font-size: 12px; margin-top: 14px; margin-bottom: 13px;
+}
+.Bi1{
+    width: 30%; height: 100%; padding-top: 20px; padding-left: 20px; font-size: 12px;
+}
+.Bi2{
+    width: 30%; height: 100%; padding-top: 20px; padding-left: 20px; font-size: 12px;
+}
+.Bi3{
+    width: 30%; height: 100%; padding-top: 20px; padding-left: 20px; font-size: 12px;
+     word-wrap: 'break-word';  
+}
+.Message{
+    width: 354px;
+height: 66px;
+/* UI Properties */
+text-align: center;
+font:18px;
+color: #333232;
+text-align: center;
+margin-bottom: 50px;
+font:normal normal normal 18px/22px Lato
+}
+.img1{
+    width:200px;
+    height:224.53px;
+    margin-bottom: 50px;
+}
+@media (min-width: 481px) and  (max-width: 767px) {
+    .img1{
+        width:150px;
+        height:124.53px;
+        margin-bottom: 20px;
+    }
+    .Message{
+        width: 354px;
+    height: 66px;
+    /* UI Properties */
+    text-align: center;
+    color: #333232;
+    text-align: center;
+    margin-bottom: 20px;
+    font:normal normal normal 15px/22px Lato
+    }
+
+    .table{
+        width: 500px;
+    height: 112px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    font: normal normal normal 12px/15px Lato;
+    }
+
+    .header-1{
+        margin-left: 50px; font-size: 12px; margin-top: 14px; margin-bottom: 13px;
+    }
+    .header-2{
+        margin-left: 100px; font-size: 12px; margin-top: 14px; margin-bottom: 13px;
+    }
+    .header-3{
+        margin-left: 150px; font-size: 12px; margin-top: 14px; margin-bottom: 13px;
+    }
+
+    .Bi1{
+        width: 30%; height: 100%; padding-top: 20px; padding-left: 20px; font-size: 10px;
+    }
+    .Bi2{
+        width: 30%; height: 100%; padding-top: 20px; padding-left: 20px; font-size: 9px;
+    }
+    .Bi3{
+        width: 30%; height: 100%; padding-top: 20px; padding-left: 20px; font-size: 9px;
+         word-wrap: 'break-word';  
+         margin-bottom: 10px;
+    }
+}

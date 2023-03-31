@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.semi-header-title{
+    font:normal normal normal 25px/33px Roboto
+}
+.semi-header-books-count{
+    margin-left:5px;
+     color:#9D9D9D;
+      font:normal normal normal 12px/16px Roboto
+}
+.filter{
+    width: 20%;
+}
+
+@media (min-width: 481px) and  (max-width: 767px) {
+    .filter{
+        width: 30%;
+        margin-right: 45px;
+    }
+
+    .semi-header-title{
+        font:normal normal normal 15px/13px Roboto
+    }
+    .semi-header-books-count{
+        margin-left:2px;
+         color:#9D9D9D;
+          font:normal normal normal 8px/12px Roboto
+    }
+}
